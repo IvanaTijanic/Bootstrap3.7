@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Opis strane prema uputstvima i smernicama">
+  <meta name="keywords" content=ovde upisati do 10 kljicnih reci">
+  <meta name="author" content="Ime i prezime | e mail">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>FrontEnd project | Ivana Tijanić</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/mojstil.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- pocetak omotaca -->
+    <div class="page-header">
+      <h1><a href="index.html"><img src="cookie.png" alt="kolačić"></a><small>
+      Cookie!</small></h1>
+    </div>
+    <!---->
+    <nav class="navbar navbar-default" data-spy="affix">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+        aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span><!-- ovo je ikonica glifikon -->
+      Početna strana</a>
+      </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="onama.html">O nama<span class="sr-only">(current)</span></a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Proizvodi<span
+            class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Proizvod 1</a></li>
+              <li><a href="#">Proizvod 2</a></li>
+              <li><a href="#">Mapa sajta</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="stranazastampu.html">Strana za štampu</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Polje za unos">
+          </div>
+          <button type="submit" class="btn btn-default">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span><!-- ovo je ikonica glifikon -->
+          </button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <h2 class="page-header">
+     FAQ
+    </h2>
+    <div class="row">
+  <div class="col-md-4">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Pitanje #1
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Pitanje #2
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Pitanje #3
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="col-md-4">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          Pitanje  #4
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFive">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Pitanje #5
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSixe">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Ptanje #6
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="col-md-4">
+    <div class="panel-group" id="acc ordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSeven">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+          Pitanje #7
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSeven" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSeven">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingEight">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+          Pitanje #8
+        </a>
+      </h4>
+    </div>
+    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingNine">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+         Pitanje #9
+        </a>
+      </h4>
+    </div>
+    <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+    <footer>
+      <!-- početak footer-a -->
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="page-header">
+            O nama
+          </h4>
+          <div class="caption">
+            <p class="text-justify">
+              Naziv kompanije, kratak opis delatnosti kojom se kompanija bavim, misija, vizija.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ullam praesentium modi dolorum maxime in
+              magnam delectus error corporis dolore fugiat quam, adipisci officiis natus temporibus inventore! Iusto,
+              totam culpa.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4 class="page-header">
+            Kontakt
+          </h4>
+          <p><i class="fas fa-map-marker" aria-hidden="true"></i> Savski nasip 7, Beograd 11000 </p>
+          <p><i class="fas fa-phone" aria-hidden="true"></i> +381 11 201 55 00</p>
+          <p><i class="fas fa-envelope" aria-hidden="true"></i> info@code.edu.rs</p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="page-header">
+            Pratite nas!
+          </h4>
+          <ul class="list-inline">
+            <li><a href="http://facebook.com/"><i class="fab fa-facebook-f fa-3x"></i></a></li>
+            <li><a href="http://instagram.com/"><i class="fab fa-instagram fa-3x"></i></a></li>
+            <li><a href="http://linkedin.com/"><i class="fab fa-linkedin fa-3x"></i></a></li>
+            <li><a href="http://twitter.com/"><i class="fab fa-twitter-square fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div> <!-- kraj gornjeg dela footer-a -->
+      <div class="panel-footer">
+        <!-- donji deo footer-a -->
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-inline">
+              <li><a href="onama.html">O nama</a></li>
+              <li><a href="#">Proizvodi </a></li>
+              <li><a href="faq.html#">FAQ</a></li>
+              <li><a href="#">Uslovi koriscenja</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+              <li><a href="#">Mapa sajta</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p class="text-right">Copyright &copy; 2019 Ivana Tijanić &#9763;</p>
+          </div>
+        </div>
+      </div> <!-- kraj donjeg dela footer-a -->
+    </footer> <!-- kraj footer sekcije -->
+  </div><!-- kraj omotaca -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mojjs.js"></script>
+
+</body>
+
+</html>
